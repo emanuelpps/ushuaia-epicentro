@@ -14,9 +14,13 @@
 }
 
 .cardBackground{
-  background-image: url("/assets/images/background-ushuaia.png");
+  background-image: url("/assets/images/laguna-esmeralda_2.png");
   background-size: contain;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.customTextStyle {
+  -webkit-box-reflect: below -25px linear-gradient(to bottom, transparent, transparent 40%, white);
 }
