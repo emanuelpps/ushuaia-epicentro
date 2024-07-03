@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
+import { useEffect } from "react";
 import TagButton from "../../components/buttons/TagButton";
 
 function TagsContainer({ setTagSelection }) {
@@ -7,6 +8,10 @@ function TagsContainer({ setTagSelection }) {
     console.log(value);
     setTagSelection(value);
   }
+
+  useEffect(() => {
+    setTagSelection("Historia");
+  }, []);
 
   return (
     <div id="submenu-container">
