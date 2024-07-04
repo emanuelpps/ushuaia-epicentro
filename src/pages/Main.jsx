@@ -8,7 +8,7 @@ function Main() {
   const [tagSelection, setTagSelection] = useState("");
   return (
     <div className="cardBackground rounded-2xl flex justify-center items-center h-[95%] w-[85%] flex-col">
-      <NavBar screenSelection={screenSelection} />
+      <NavBar screenSelection={screenSelection} setScreenSelection={setScreenSelection}/>
       {(screenSelection === 0 && (
         <>
           <Home setScreenSelection={setScreenSelection} />

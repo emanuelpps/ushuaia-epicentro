@@ -2,12 +2,11 @@
 export default {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
-    extend: {
-      fontFamily: {
-        Raleway: ["Raleway", "sans-serif"],
-      },
+    fontFamily: {
+      Raleway: ['"Raleway", sans-serif'],
+      Roboto: ['"Roboto", sans-serif'],
     },
+    extend: {},
   },
   plugins: [],
-}
-
+};
